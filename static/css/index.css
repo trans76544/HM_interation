@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul,ol{list-style: none;}
+
+.icon{
+	width: 1em; height: 1em;
+	vertical-align: -2em;
+	fill: currentColor;
+	overflow: hidden;
+}
+
+.label{
+	vertical-align: -1em;
+	fill: currentColor;
+	overflow: hidden;
+	color: red;
+}
+
+.cursor1{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #293937;
+	display: block;
+	overflow: hidden;
+}
+
+.act{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+			
+/* .point_size{
+	-webkit-appearance: none;
+	width:100px;
+	height:3px;
+	background: skyblue;
+}
+
+.point_size::-webkit-slider-thumb{
+	-webkit-appearance: none;
+	width:10px;
+	height:10px;
+	background:#000000;
+	border-radius:50%;
+} */
+
+.act> svg{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.5rem 1rem;
+    transition: all 0.3s;
+}
+
+.act svg.active{
+    transform: scale(1.6);
+}
