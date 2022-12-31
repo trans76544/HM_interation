@@ -12,7 +12,7 @@ import numpy as np
 
 config = Config()
 
-model_path = 'outputs/netCRNN_25_end.pth'
+# model_path = 'outputs/netCRNN_25_end.pth'
 
 # net init
 nclass = len(config.label_classes) + 1

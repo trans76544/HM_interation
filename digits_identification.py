@@ -163,6 +163,7 @@ def main():
         val(crnn, criterion, eval_data_batch, epoch)
         torch.save(crnn.state_dict(), '{0}/netCRNN_{1}_end.pth'.format(config.expr_dir, epoch))
     writer.close()
+    torch.save(crnn, 'netCRNN.pth')
 
 
 if __name__ == "__main__":
